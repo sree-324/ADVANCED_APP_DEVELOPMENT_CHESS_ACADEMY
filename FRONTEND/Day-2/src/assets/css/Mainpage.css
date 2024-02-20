@@ -1,0 +1,32 @@
+/* Mainpage.css */
+
+  
+  .options {
+   display: flex;
+    justify-content: center;
+    margin-left: 130%;
+    
+  }
+
+  .circle-shadow {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-shadow button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color
+  }  

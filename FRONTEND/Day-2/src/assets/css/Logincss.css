@@ -1,0 +1,56 @@
+.login-head {
+    max-width: 400px;
+   
+    text-align: center;
+  }
+  .loginpage-head {
+    margin-left: 250%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .loginpage-head h1 {
+    text-align: center;
+  }
+  
+  .loginform-head {
+   
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+  }
+  
+  .loginform-head label {
+    margin-bottom: 5px;
+  }
+  
+  .loginform-head input[type="text"],
+  .loginform-head input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loginform-head button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loginform-head button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loginform-head .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
