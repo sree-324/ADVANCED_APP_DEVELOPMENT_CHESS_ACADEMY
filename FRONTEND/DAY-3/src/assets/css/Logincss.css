@@ -1,0 +1,63 @@
+/* LoginPage.css */
+
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  align-items:center;
+  margin-left:200%;
+  background-image:url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fbeautiful-crown-miniature-on-chessboard-260nw-1926428225.jpg&tbnid=qEIrV59lhjebRM&vet=12ahUKEwj_o_HE67uEAxVf5zgGHQO2AjwQMygregUIARDBAQ..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fchess-king-fire&docid=3sSRh5AtZsS4qM&w=390&h=280&q=chess%20purple&hl=en&ved=2ahUKEwj_o_HE67uEAxVf5zgGHQO2AjwQMygregUIARDBAQ');
+
+
+}
+
+
+.theme {
+  width: 1517px;
+  height: 705px;
+}
+.login-s{
+  margin-left:15%;
+}
+.login-2{
+  align-items:center;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  margin-bottom: 10px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
