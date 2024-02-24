@@ -1,0 +1,30 @@
+.main-page {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJe4g9WzYYEZ_3D7JSrMEDB6NRoT1kBmkZgVu0tN3RzoP4ooSaMPr7ECgcHQ6txZaRpQc&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.admin-button,
+.user-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.gif-container {
+  margin-top: 50px;
+}
+
+/* You can add more CSS styling as needed */

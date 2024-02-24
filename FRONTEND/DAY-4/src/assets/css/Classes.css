@@ -1,0 +1,34 @@
+/* Classes.css */
+
+/* Container for the entire Classes component */
+.schedule-container {
+    padding: 20px;
+  }
+  
+  /* Style for the schedule table */
+  .schedule-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  
+  /* Style for table headers */
+  .schedule-table th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for table cells */
+  .schedule-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for alternate rows */
+  .schedule-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

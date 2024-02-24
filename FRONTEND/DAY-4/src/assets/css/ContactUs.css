@@ -1,0 +1,24 @@
+.contact-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.contact-box h2 {
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    margin: 0;
+    font-size: 18px;
+}
