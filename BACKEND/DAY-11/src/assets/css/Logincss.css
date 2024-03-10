@@ -1,0 +1,106 @@
+.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/dqti46fgn/image/upload/v1709707920/lgwp_e7racg.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.login-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 150%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  padding: 25px;
+  background-color: white;
+  border-radius: 20px;
+  
+
+}
+
+
+
+.input-field {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+input {
+  padding: 10px 30px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 10px 30px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.image {
+  /* Style your image container here */
+}
+/* Existing CSS styles */
+
+.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerl {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+
+.image {
+  margin-bottom: 20px; /* Adjust spacing between image and form */
+}
+
+.login-form {
+  width: 100%;
+  justify-self: center;
+}
+
+/* Existing CSS styles */

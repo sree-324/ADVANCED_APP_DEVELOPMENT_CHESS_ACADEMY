@@ -1,0 +1,45 @@
+/* styles.css */
+
+.workshop-page {
+  margin-top: 5%;
+  width: 100%;
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+
+.workshop-container {
+  background-color:wheat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.workshop-card {
+  display: flex;
+  margin-bottom: 20px;
+  height: 500%;
+}
+
+.workshop-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.workshop-details {
+  margin-top: 13%;
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .workshop-card {
+    flex-direction: column;
+  }
+
+  .workshop-image {
+    width: 100%;
+    height: auto;
+  }
+}

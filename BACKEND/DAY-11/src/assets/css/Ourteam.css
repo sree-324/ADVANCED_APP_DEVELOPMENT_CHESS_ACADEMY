@@ -1,0 +1,42 @@
+/* TeamPage.css */
+
+.team-page {
+    padding: 20px;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+
+  }
+  .team-details{
+    margin-top: 5%;
+  }
+  
+  .team-member {
+    display: flex;
+    width: 45%; /* Adjust width as needed */
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .team-member-image {
+    width: 150px; /* Adjust image width as needed */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .team-member-details {
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .team-member {
+      width: 100%; /* Make team member cards full width on smaller screens */
+    }
+  }
+  
